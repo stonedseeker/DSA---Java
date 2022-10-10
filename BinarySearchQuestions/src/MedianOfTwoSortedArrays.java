@@ -15,13 +15,12 @@ public class MedianOfTwoSortedArrays {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         List<Integer>  nums3 = new ArrayList<>(nums1.length + nums2.length);
 
-        for (int j : nums1) {
+        for (int j : nums1)
             nums3.add(j);
-        }
 
-        for (int j : nums2) {
+        for (int j : nums2)
             nums3.add(j);
-        }
+
 
         System.out.println(nums3);
 
@@ -32,10 +31,11 @@ public class MedianOfTwoSortedArrays {
         System.out.println(nums3.size());
         // {1,2,3,4}
         if (nums3.size() % 2 == 0) {
-            System.out.println((float) (nums3.get(2)) );
-            System.out.println((float)(nums3.get(1)) );
-            float ans = (float) (((nums3.get(2)) + (nums3.get(1))) / 2);
-            return ans;
+            float prev =  nums3.get((nums3.size() - 1) / 2) ;
+            float next = nums3.get((nums3.size()) / 2);
+            float ans = prev + next;
+            float ans1 = ans / 2;
+            return ans1;
         }else {
             float ans =  nums3.get(nums3.size() / 2);
             return ans;
