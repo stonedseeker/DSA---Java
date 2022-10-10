@@ -13,7 +13,6 @@ public class matrixTranspose {
         System.out.println(Arrays.toString((transpose(matrix))));
     }
         static int[][] transpose(int[][] matrix) {
-            int[][] temp = matrix;
             int[][] res = new int [matrix[0].length][matrix.length];
 
             for (int i = 0; i < res.length; i++) {
@@ -30,4 +29,3 @@ public class matrixTranspose {
             }
 
         }
-
