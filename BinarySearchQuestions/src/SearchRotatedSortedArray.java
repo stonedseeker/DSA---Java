@@ -22,9 +22,19 @@ public class SearchRotatedSortedArray {
 
             if (arr[mid] <= arr[start]) end = mid - 1;
 
-            if (arr[mid] == arr[start] && arr[mid] == arr[end] ) return start;
+            if (arr[mid] == arr[start] && arr[mid] == arr[end] ) {
+                if (arr[start] > arr[start + 1]) {
+                    return start;
+                }
+                start ++;
 
-            else start = mid + 1;
+                if (arr[end]  < arr[end - 1]) {
+                    return end - 1;
+                }
+                end --;
+            } else if  (arr[start] < arr[mid] || (arr[start] == arr[mid] && arr[end] < arr[mid] )) {
+                start = mid + 1;
+            } else start = mid + 1;
         }
         return -1;
     }
