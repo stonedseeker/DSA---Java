@@ -1,0 +1,7 @@
+WHY RECURSION?
+
+Recursion is a func calling itsetf.
+
+Recursion helps us in solving bigger and complex problems in a simpler way.
+Recursion sollutions can be converted into iterations and vice - versa.
+Space complexity is not constant because of recursive calls

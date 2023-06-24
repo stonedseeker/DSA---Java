@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bitwise/Bitwise.iml" filepath="$PROJECT_DIR$/Bitwise/Bitwise.iml" />
       <module fileurl="file://$PROJECT_DIR$/CyclicSort/CyclicSort.iml" filepath="$PROJECT_DIR$/CyclicSort/CyclicSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA---Java.iml" filepath="$PROJECT_DIR$/DSA---Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,13 @@
+While solving recursion problems:
+
+    1. Identify if you can break the problems into sub problems.
+    2. Write the recursion relation if needed.
+    3. Draw the recurssive tree.
+    4. About the tree
+        a. See the flow of functions, how they are getting in the stack.
+        b. Identify the flow of left tree and right tree.
+        c. Draw the tree and pointers again and again using pen and paper.
+        d. use a pen and paper to see the flow.
+    5. See how the values are returned at each step.
+    6. See where the function call will come out.
+    7. You will come out of the main function.
